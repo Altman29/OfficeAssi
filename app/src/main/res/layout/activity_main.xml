@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99px"
+        android:background="#e3e5e7"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="6px">
+
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:text="首页"
+                android:textSize="20px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_work"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6px">
+
+            <ImageView
+
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:src="@drawable/work" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:text="工作"
+                android:textSize="20px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:src="@drawable/knowledge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:text="知识库"
+                android:textSize="20px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_my"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:src="@drawable/my" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:text="我的"
+                android:textSize="20px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e3e5e7"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="首页"
+            android:textColor="#aaa"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/work"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="工作"
+            android:textColor="#aaa"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_know"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/knowledge"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="知识库"
+            android:textColor="#aaa"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/my"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="我的"
+            android:textColor="#aaa"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+</LinearLayout>

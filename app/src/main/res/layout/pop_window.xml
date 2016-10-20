@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arrow"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_cg"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:background="@drawable/login_button"
+        android:text="成功" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <Button
+        android:id="@+id/bt_sb"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:background="@drawable/login_button"
+        android:text="失败" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <Button
+        android:id="@+id/bt_shz"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:background="@drawable/login_button"
+        android:text="审核中" />
+</LinearLayout>

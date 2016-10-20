@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AgreeActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_approve_title"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:background="#6bc5a4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_quxiao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20px"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="245px"
+            android:text="同意"
+            android:textColor="#fff"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/tv_hold1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="235px"
+            android:text="保存"
+            android:textColor="#fff"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_agreeremark"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="@null"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
